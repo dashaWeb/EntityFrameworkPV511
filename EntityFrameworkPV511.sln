@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Connected mode", "01_Connected mode\01_Connected mode.csproj", "{13DB1DD6-E6E4-48B2-A050-8AEE2DA9EBA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Data_access", "02_Data_access\02_Data_access.csproj", "{26D0EEDE-5E4E-4B93-9A7A-8A67D460BE4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{13DB1DD6-E6E4-48B2-A050-8AEE2DA9EBA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13DB1DD6-E6E4-48B2-A050-8AEE2DA9EBA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13DB1DD6-E6E4-48B2-A050-8AEE2DA9EBA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D0EEDE-5E4E-4B93-9A7A-8A67D460BE4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D0EEDE-5E4E-4B93-9A7A-8A67D460BE4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D0EEDE-5E4E-4B93-9A7A-8A67D460BE4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D0EEDE-5E4E-4B93-9A7A-8A67D460BE4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
