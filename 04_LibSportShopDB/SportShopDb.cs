@@ -2,21 +2,13 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace _02_Data_access
+namespace _04_LibSportShopDB
 {
-    /*
-       [C] - Create 
-       [R] - Read 
-       [U] - Update
-       [D] - Delete
-    */
-    class SportShopDb
+    public class SportShopDb
     {
         private SqlConnection connection;
-        private string connectionString;
+        public string connectionString;
 
         public SportShopDb(string connectionString)
         {
@@ -77,7 +69,7 @@ namespace _02_Data_access
 
             var reader = command.ExecuteReader();
             return this.GetProductsByQuery(reader);
-           
+
         }
         public Product GetOneProduct(int id)
         {

@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//using _04_LibSportShopDB;
+
 namespace _02_Data_access
 {
    
@@ -12,12 +14,12 @@ namespace _02_Data_access
     {
         static void Main(string[] args)
         {
-            Console.OutputEncoding = Encoding.UTF8;
+            /*Console.OutputEncoding = Encoding.UTF8;
             string conn = ConfigurationManager.ConnectionStrings["connStr"].ConnectionString;
             SportShopDb db = new SportShopDb(conn);
             //db.Create("dumbbells","equipment", 100, 50, "China", 150);
 
-            /*db.Create(new Product()
+            *//*db.Create(new Product()
             {
                 Name = "Rackets",
                 Type = "Equipment",
@@ -25,7 +27,7 @@ namespace _02_Data_access
                 CostPrice = 100,
                 Producer = "China",
                 Price = 250
-            });*/
+            });*//*
 
             List<Product> products = db.GetAll();
             foreach (var item in products)
@@ -49,7 +51,7 @@ namespace _02_Data_access
             foreach (var item in db.GetAll())
             {
                 Console.WriteLine($"{item.Id,-15}{item.Name,-20}{item.Price,10}");
-            }
+            }*/
         }
     }
 }

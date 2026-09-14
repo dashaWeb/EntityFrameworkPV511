@@ -7,6 +7,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Connected mode", "01_Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Data_access", "02_Data_access\02_Data_access.csproj", "{26D0EEDE-5E4E-4B93-9A7A-8A67D460BE4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_LibSportShopDB", "04_LibSportShopDB\04_LibSportShopDB.csproj", "{269CAA24-7436-4326-A6CF-030814E16026}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_SportShopApp", "03_SportShopApp\03_SportShopApp.csproj", "{04EC7262-AA88-4EBB-ADE6-FA7918639474}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibAppSportShop", "LibAppSportShop\LibAppSportShop.csproj", "{5A36FE34-32D3-447B-A0E7-BA0F4CA5A089}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_DisconnectedMode", "05_DisconnectedMode\05_DisconnectedMode.csproj", "{348B7045-9751-4B17-9117-DCAE1C0A3C5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_EF - intro", "06_EF - intro\06_EF - intro.csproj", "{AD724B45-5B92-4DE1-8422-9B9EE6168201}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +31,26 @@ Global
 		{26D0EEDE-5E4E-4B93-9A7A-8A67D460BE4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26D0EEDE-5E4E-4B93-9A7A-8A67D460BE4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26D0EEDE-5E4E-4B93-9A7A-8A67D460BE4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{269CAA24-7436-4326-A6CF-030814E16026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{269CAA24-7436-4326-A6CF-030814E16026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{269CAA24-7436-4326-A6CF-030814E16026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{269CAA24-7436-4326-A6CF-030814E16026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04EC7262-AA88-4EBB-ADE6-FA7918639474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04EC7262-AA88-4EBB-ADE6-FA7918639474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04EC7262-AA88-4EBB-ADE6-FA7918639474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04EC7262-AA88-4EBB-ADE6-FA7918639474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A36FE34-32D3-447B-A0E7-BA0F4CA5A089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A36FE34-32D3-447B-A0E7-BA0F4CA5A089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A36FE34-32D3-447B-A0E7-BA0F4CA5A089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A36FE34-32D3-447B-A0E7-BA0F4CA5A089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{348B7045-9751-4B17-9117-DCAE1C0A3C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{348B7045-9751-4B17-9117-DCAE1C0A3C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{348B7045-9751-4B17-9117-DCAE1C0A3C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{348B7045-9751-4B17-9117-DCAE1C0A3C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD724B45-5B92-4DE1-8422-9B9EE6168201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD724B45-5B92-4DE1-8422-9B9EE6168201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD724B45-5B92-4DE1-8422-9B9EE6168201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD724B45-5B92-4DE1-8422-9B9EE6168201}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
