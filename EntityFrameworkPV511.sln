@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibAppSportShop", "LibAppSp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_DisconnectedMode", "05_DisconnectedMode\05_DisconnectedMode.csproj", "{348B7045-9751-4B17-9117-DCAE1C0A3C5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_EF - intro", "06_EF - intro\06_EF - intro.csproj", "{AD724B45-5B92-4DE1-8422-9B9EE6168201}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_EF - intro", "06_EF - intro\06_EF - intro.csproj", "{AD724B45-5B92-4DE1-8422-9B9EE6168201}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_fluent_api_seeder", "07_fluent_api_seeder\07_fluent_api_seeder.csproj", "{CF3B734F-73FE-4172-A87D-B5B9B946DA3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{AD724B45-5B92-4DE1-8422-9B9EE6168201}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD724B45-5B92-4DE1-8422-9B9EE6168201}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD724B45-5B92-4DE1-8422-9B9EE6168201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF3B734F-73FE-4172-A87D-B5B9B946DA3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF3B734F-73FE-4172-A87D-B5B9B946DA3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF3B734F-73FE-4172-A87D-B5B9B946DA3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF3B734F-73FE-4172-A87D-B5B9B946DA3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,7 +13,7 @@ namespace _06_EF___intro
     {
         public CompanyDb()
         {
-           /* this.Database.EnsureDeleted();
+            /*this.Database.EnsureDeleted();
             this.Database.EnsureCreated();*/
         }
 
@@ -23,7 +25,7 @@ namespace _06_EF___intro
                             Initial Catalog = Company_PV_511;
                             Integrated Security = True;
                             Connect Timeout = 2;
-                            "); 
+                            ");
         }
 
         public DbSet<Worker> Workers { get; set; }
@@ -32,7 +34,7 @@ namespace _06_EF___intro
         public DbSet<Project> Projects { get; set; }
     }
 
-
+    [Table("Employees")]
     public class Worker
     {
         public Worker()
@@ -40,16 +42,23 @@ namespace _06_EF___intro
             Projects = new HashSet<Project>();
         }
         public int Id { get; set; }
-        public string Name { get; set; }
+        [Required] // not null
+        [MaxLength(50)] // nvarchar(50)
+        [Column("FirstName")]
+        public string Name { get; set; } // null [Required] -->  not null
+        [Required,MaxLength(50)]
         public string Surname { get; set; }
         public double Salary { get; set; }
-        public DateTime Birthdate { get; set; }
+        [NotMapped]
+        public string FullName { get; set; } = $"Test";
+        public DateTime? Birthdate { get; set; }
         public string Address { get; set; }
-        public string PhoneNumber { get; set; }
+        public string PhoneNumber { get; set; } = null;
 
         // foteign key one to many
         public int DepartmentId { get; set; }
-        public int CountryId { get; set; }
+        [ForeignKey("Country")]
+        public int? CountryId { get; set; }
 
         // property navigation
         public Country Country { get; set; }
@@ -76,6 +85,8 @@ namespace _06_EF___intro
         {
             Workers = new HashSet<Worker>();
         }
+        // Primary key naming --> ID, Id, id / EntityName + ID =  CountryId
+        [Key] // primary key
         public int Id { get; set; }
         public string Name { get; set; }
         public ICollection<Worker> Workers { get; set; }
