@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_fluent_api_seeder", "07_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_Loading_types", "08_Loading_types\08_Loading_types.csproj", "{57599ED0-1484-4C4B-942B-9795D3FC925F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Migrations", "09_Migrations\09_Migrations.csproj", "{8B0BA8F9-7DBC-4213-8334-495D2CA41838}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Dapper", "09_Dapper\09_Dapper.csproj", "{A1B26987-FEFC-46D0-9930-6920F554D821}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,10 +65,10 @@ Global
 		{57599ED0-1484-4C4B-942B-9795D3FC925F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57599ED0-1484-4C4B-942B-9795D3FC925F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57599ED0-1484-4C4B-942B-9795D3FC925F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8B0BA8F9-7DBC-4213-8334-495D2CA41838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8B0BA8F9-7DBC-4213-8334-495D2CA41838}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8B0BA8F9-7DBC-4213-8334-495D2CA41838}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8B0BA8F9-7DBC-4213-8334-495D2CA41838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B26987-FEFC-46D0-9930-6920F554D821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B26987-FEFC-46D0-9930-6920F554D821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B26987-FEFC-46D0-9930-6920F554D821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B26987-FEFC-46D0-9930-6920F554D821}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
