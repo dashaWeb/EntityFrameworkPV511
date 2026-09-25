@@ -23,6 +23,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_Loading_types", "08_Load
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Dapper", "09_Dapper\09_Dapper.csproj", "{A1B26987-FEFC-46D0-9930-6920F554D821}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00_Db_Airplane_", "00_Db_Airplane_\00_Db_Airplane_.csproj", "{F2C3885F-B89D-428F-8EE5-B2BF6B85F488}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00_App_AirPlane", "00_App_AirPlane\00_App_AirPlane.csproj", "{7ABDDEF8-7D12-43D1-837D-EF37E49508F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{A1B26987-FEFC-46D0-9930-6920F554D821}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1B26987-FEFC-46D0-9930-6920F554D821}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1B26987-FEFC-46D0-9930-6920F554D821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C3885F-B89D-428F-8EE5-B2BF6B85F488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C3885F-B89D-428F-8EE5-B2BF6B85F488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C3885F-B89D-428F-8EE5-B2BF6B85F488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C3885F-B89D-428F-8EE5-B2BF6B85F488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ABDDEF8-7D12-43D1-837D-EF37E49508F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ABDDEF8-7D12-43D1-837D-EF37E49508F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ABDDEF8-7D12-43D1-837D-EF37E49508F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ABDDEF8-7D12-43D1-837D-EF37E49508F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
